@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ec55ab6-05e2-4d0b-8c2c-79b940ff50aa" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MapViewer/Items.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MapViewer/Diamond.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Diamond Hunter.iws" />
@@ -36,11 +36,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Items.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Items.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MapViewer/Items.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7022767">
+            <state vertical-scroll-proportion="0.0">
               <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Diamond.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/MapViewer/Diamond.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.02977233">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -68,6 +78,7 @@
       <list>
         <option value="$PROJECT_DIR$/src/MapViewer/TileMap.java" />
         <option value="$PROJECT_DIR$/src/MapViewer/Items.java" />
+        <option value="$PROJECT_DIR$/src/MapViewer/Diamond.java" />
       </list>
     </option>
   </component>
@@ -630,11 +641,17 @@
       <option name="project" value="LOCAL" />
       <updated>1482222190847</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Items class added to populate Map with AXE and BOAT">
+      <created>1482225237301</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1482225237301</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3495000" />
+    <option name="totallyTimeSpent" value="3873000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1378" height="735" extended-state="0" />
@@ -673,7 +690,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Items class added to populate Map with AXE and BOAT" />
+    <option name="LAST_COMMIT_MESSAGE" value="Items class added to populate Map with AXE and BOAT" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -690,8 +708,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MapViewer/Items.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7022767">
+        <state vertical-scroll-proportion="0.0">
           <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MapViewer/Diamond.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.02977233">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
