@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="660.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MapViewer.map.MapViewerController">
+   <left>
+      <AnchorPane fx:id="anchorPane" prefHeight="400.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <ToggleButton fx:id="BOATbtn" layoutX="46.0" layoutY="383.0" mnemonicParsing="false" onAction="#boatSelected" onMousePressed="#onMousePressed" prefHeight="26.0" prefWidth="156.0" text=" Boat">
+               <font>
+                  <Font name="Berlin Sans FB" size="20.0" />
+               </font>
+            </ToggleButton>
+            <ToggleButton fx:id="AXEbtn" layoutX="45.0" layoutY="340.0" mnemonicParsing="false" onAction="#axeSelected" onMousePressed="#onMousePressed" pickOnBounds="false" prefHeight="23.0" prefWidth="155.0" text="Axe">
+               <font>
+                  <Font name="Berlin Sans FB" size="20.0" />
+               </font>
+            </ToggleButton>
+            <Button fx:id="backButton" layoutX="46.0" layoutY="580.0" mnemonicParsing="false" onAction="#goMainView" prefHeight="32.0" prefWidth="154.0" text="Back">
+               <font>
+                  <Font name="Bernard MT Condensed" size="18.0" />
+               </font></Button>
+            <Button fx:id="saveButton" layoutX="47.0" layoutY="531.0" mnemonicParsing="false" onAction="#SaveButtonAction" prefHeight="38.0" prefWidth="153.0" text="Save">
+               <font>
+                  <Font name="Bernard MT Condensed" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="defaultButton" layoutX="45.0" layoutY="427.0" mnemonicParsing="false" onAction="#defaultMap" prefHeight="38.0" prefWidth="156.0" text="Default">
+               <font>
+                  <Font name="Berlin Sans FB" size="20.0" />
+               </font>
+            </Button>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="65.0" layoutY="73.0" prefHeight="70.0" prefWidth="154.0" text="Map ">
+               <font>
+                  <Font name="Kemco Pixel Bold" size="48.0" />
+               </font>
+            </Label>
+            <Label layoutX="11.0" layoutY="143.0" text="Viewer">
+               <font>
+                  <Font name="Kemco Pixel Bold" size="48.0" />
+               </font>
+            </Label>
+            <Separator layoutX="-3.0" layoutY="265.0" prefHeight="3.0" prefWidth="257.0" />
+            <Separator layoutY="489.0" prefHeight="0.0" prefWidth="256.0" />
+            <Label layoutX="51.0" layoutY="297.0" text="Position">
+               <font>
+                  <Font name="Berlin Sans FB" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </left>
+   <right>
+      <Canvas fx:id="canvasMapViewer" accessibleRole="TOGGLE_BUTTON" height="640.0" width="640.0" BorderPane.alignment="CENTER" />
+   </right>
+   <center>
+      <Separator fx:id="seperator" orientation="VERTICAL" prefHeight="660.0" prefWidth="35.0" BorderPane.alignment="CENTER" />
+   </center>
+</BorderPane>
+
+
