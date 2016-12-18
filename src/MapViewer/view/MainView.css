@@ -1,0 +1,99 @@
+#titleHeader {
+	-fx-background-color: 
+	-fx-shadow-highlight-color,
+        linear-gradient(to bottom, #F6FE82, #B0FAC6),
+        linear-gradient(to bottom, #FEBAB3, #B0FAC6);
+}
+
+#AXEbtn {
+	-fx-background-radius: 30px;
+	-fx-background-color: rgb(132, 233, 172);
+}
+
+#BOATbtn {
+	-fx-background-radius: 30px;
+	-fx-background-color: rgb(132, 233, 172);
+}
+
+#defaultButton{
+	-fx-background-radius: 30px;
+	-fx-background-color: rgb(132, 233, 172);
+}
+
+#saveButton {
+	-fx-background-radius: 30px;
+	-fx-background-color: rgb(79, 165, 145);
+}
+
+#backButton {
+	-fx-background-radius: 30px;
+	-fx-background-color: rgb(79, 165, 145);
+}
+
+#anchorPane {
+	-fx-background-color: 
+	-fx-shadow-highlight-color,
+        linear-gradient(to bottom, #95FEB1, #B0FAC6),
+        linear-gradient(to bottom, #EABDFE, #B0FAC6);
+}
+
+.root {
+	-fx-background-color: 
+	-fx-shadow-highlight-color,
+        linear-gradient(to bottom, #B0FAC6, #B0FAC6),
+        linear-gradient(to bottom, #B0FAC6, #B0FAC6);
+}
+
+
+#viewMapButton:hover {
+    -fx-background-color: rgb(241, 254, 210);
+}
+
+#playGameButton:hover {
+    -fx-background-color: rgb(241, 254, 210);
+}
+
+#exitButton:hover {
+    -fx-background-color: rgb(241, 254, 210);
+}
+
+#AXEbtn:hover {
+	-fx-background-color: #C1FED3;
+}
+
+#BOATbtn:hover {
+	-fx-background-color: #C1FED3;
+}
+
+#defaultButton:hover {
+	-fx-background-color: #C1FED3;
+}
+
+#saveButton:hover {
+	-fx-background-color: #87CB9C;
+}
+
+#backButton:hover {
+	-fx-background-color: #87CB9C;
+}
+
+#AXEbtn: selected {
+	-fx-background-color: 
+	-fx-shadow-highlight-color,
+        linear-gradient(to bottom, #F99D9A, #B0FAC6),
+        linear-gradient(to bottom, #5BE3CC, #B0FAC6);
+}
+
+#BOATbtn: selected {
+	-fx-background-color: 
+	-fx-shadow-highlight-color,
+        linear-gradient(to bottom, #F99D9A, #B0FAC6),
+        linear-gradient(to bottom, #5BE3CC, #B0FAC6);
+}
+
+#defaultButton: selected {
+	-fx-background-color: 
+	-fx-shadow-highlight-color,
+        linear-gradient(to bottom, #F99D9A, #B0FAC6),
+        linear-gradient(to bottom, #F99D9A, #B0FAC6);
+}
