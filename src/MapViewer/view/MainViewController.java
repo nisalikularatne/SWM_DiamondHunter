@@ -1,13 +1,8 @@
 package MapViewer.view;
 
-import java.io.BufferedWriter;
-import java.io.FileWriter;
 import java.io.IOException;
 
-import javax.swing.JFrame;
-
 import com.neet.DiamondHunter.Main.Game;
-import com.neet.DiamondHunter.Main.GamePanel;
 
 import MapViewer.MainMapView;
 import javafx.event.ActionEvent;
@@ -26,6 +21,11 @@ public class MainViewController {
 	@FXML
 	private void goMapViewer() throws IOException {
 		main.showMapView();
+	}
+	
+	@FXML
+	private void goPlayGame() {
+		game.main(null);
 	}
 	
 	@FXML
