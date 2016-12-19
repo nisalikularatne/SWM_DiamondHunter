@@ -5,6 +5,21 @@
         linear-gradient(to bottom, #FEBAB3, #B0FAC6);
 }
 
+#viewMapButton {
+	-fx-background-radius: 30px;
+	-fx-background-color: rgb(123, 216, 200);
+}
+
+#playGameButton {
+	-fx-background-radius: 30px;
+	-fx-background-color: rgb(123, 216, 200);
+}
+
+#exitButton {
+	-fx-background-radius: 30px;
+	-fx-background-color: rgb(123, 216, 200);
+}
+
 #AXEbtn {
 	-fx-background-radius: 30px;
 	-fx-background-color: rgb(132, 233, 172);
