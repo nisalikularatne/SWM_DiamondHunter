@@ -122,7 +122,32 @@ public class MapViewerController {
         });
     }
 
+    public void SaveCoordinates (){
+        try{
 
+            index[0][0]=YaxeCoordinate;
+            index[0][1]=XaxeCoordinate;
+            index[1][0]=YboatCoordinate;
+            index[1][1]=XboatCoordinate;
+            BufferedWriter bw = new BufferedWriter(new FileWriter("C:/Users/Nisali Kularatne/Desktop/SavePositions.txt"));
+            for (int i = 0; i < 2; i++) {
+                for (int j = 0; j < 2; j++) {
+
+                    bw.write(index[i][j] + " ");
+
+                }
+                bw.newLine();
+            }
+            bw.flush();
+            System.out.println("Save Coordinate File value="+index[0][1]);
+
+
+        }
+        catch(IOException e){
+
+        }
+
+    }
     //get the tilemap indexes from the File in resources
     public void TileMapIndexes(){
 
@@ -134,7 +159,15 @@ public class MapViewerController {
         System.out.println("X coordinate from TileMapIndex="+XaxeCoordinate) ;
         drawMap();
     }
+    @FXML
+    public void SaveButtonAction(){
+        SaveCoordinates();
 
+
+
+
+
+    }
     @FXML
     public void defaultMap(){
         g.clearRect(0, 0, 640, 640);

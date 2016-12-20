@@ -3,15 +3,11 @@ package MapViewer;
 import java.io.IOException;
 
 import MapViewer.map.MapViewerController;
-import MapViewer.view.MainViewController;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
-import javafx.scene.control.SplitPane;
 import javafx.scene.image.Image;
-import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.BorderPane;
-import javafx.scene.layout.FlowPane;
 import javafx.stage.Stage;
 
 public class MainMapView extends Application{
