@@ -187,6 +187,7 @@ public class PlayState extends GameState {
 		
 		item = new Item(tileMap);
 		item.setType(Item.AXE);
+		TileMapIndexes();
 		item.setTilePosition(Yaxe, Xaxe);
 		items.add(item);
 		
@@ -419,6 +420,15 @@ public class PlayState extends GameState {
 		}
 
 	}
+	public void TileMapIndexes(){
+		readValueFromPositionFile();
+		Xaxe = index[0][1];
+		Yaxe = index[0][0];
+		Xboat = index[1][1];
+		Yboat = index[1][0];
+
+	}
+
 
 	
 }
