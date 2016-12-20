@@ -7,6 +7,10 @@ package com.neet.DiamondHunter.GameState;
 
 import java.awt.Graphics2D;
 import java.awt.Rectangle;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.ArrayList;
 
 import com.neet.DiamondHunter.Entity.Diamond;
@@ -41,7 +45,12 @@ public class PlayState extends GameState {
 	// camera position
 	private int xsector;
 	private int ysector;
-	private int sectorSize; 
+	private int sectorSize;
+	//coordinates
+	private int Xaxe;
+	private int Yaxe;
+	private int Xboat;
+	private int Yboat;
 	
 	// hud
 	private Hud hud;
@@ -51,6 +60,8 @@ public class PlayState extends GameState {
 	private boolean eventStart;
 	private boolean eventFinish;
 	private int eventTick;
+	//index
+	private int[][] index = null;
 	
 	// transition box
 	private ArrayList<Rectangle> boxes;
@@ -176,12 +187,13 @@ public class PlayState extends GameState {
 		
 		item = new Item(tileMap);
 		item.setType(Item.AXE);
-		item.setTilePosition(26, 37);
+		TileMapIndexes();
+		item.setTilePosition(Yaxe, Xaxe);
 		items.add(item);
 		
 		item = new Item(tileMap);
 		item.setType(Item.BOAT);
-		item.setTilePosition(12, 4);
+		item.setTilePosition(Yboat, Xboat);
 		items.add(item);
 		
 	}
@@ -382,5 +394,41 @@ public class PlayState extends GameState {
 			}
 		}
 	}
+	public void readValueFromPositionFile(){
+		try{
+
+			BufferedReader br = new BufferedReader(new FileReader(new File("C:/Users/Nisali Kularatne/Desktop/SavePositions.txt")));
+			int row=0;
+			int size=0;
+			String line;
+			while((line=br.readLine())!=null){
+
+				String[] values = line.trim().split("\\s+");
+				if(index == null){
+					size = values.length;
+					index = new int[size][size];
+				}
+
+				for(int col=0; col<size; col++){
+					index[row][col]=Integer.parseInt(values[col]);
+				}
+				row++;
+			}
+
+		}catch(NumberFormatException |IOException ex){
+			System.err.println(ex);
+		}
+
+	}
+	public void TileMapIndexes(){
+		readValueFromPositionFile();
+		Xaxe = index[0][1];
+		Yaxe = index[0][0];
+		Xboat = index[1][1];
+		Yboat = index[1][0];
+
+	}
+
+
 	
 }
