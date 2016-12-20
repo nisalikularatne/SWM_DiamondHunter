@@ -113,10 +113,14 @@
         linear-gradient(to bottom, #F99D9A, #B0FAC6);
 }
 
-@font-face {
-	src: url(“Resources/Font/Kemco Pixel Bold.ttf”);
+#gameTitle {
+	-fx-font-family: 'Kemco Pixel';
 }
 
-#gameTitle {
-	fx-font-family: “Kemco Pixel Bold”;
+#mapLabel {
+	-fx-font-family: 'Kemco Pixel';
+}
+
+#viewerLabel {
+	-fx-font-family: 'Kemco Pixel';
 }
