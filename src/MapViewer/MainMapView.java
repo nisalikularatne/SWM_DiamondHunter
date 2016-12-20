@@ -8,6 +8,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.image.Image;
 import javafx.scene.layout.BorderPane;
+import javafx.scene.text.*;
 import javafx.stage.Stage;
 
 public class MainMapView extends Application{
@@ -32,6 +33,7 @@ public class MainMapView extends Application{
     	mainLayout = (BorderPane) loader.load();
     	Scene scene = new Scene(mainLayout);
     	scene.getStylesheets().add(getClass().getResource("view/MainView.css").toExternalForm());
+    	Font.loadFont(getClass().getResourceAsStream("/Resources/Font/Kemco Pixel Bold.ttf"), 14);
     	primaryStage.setScene(scene);
     	primaryStage.show();
     }
@@ -40,8 +42,6 @@ public class MainMapView extends Application{
     	FXMLLoader loader = new FXMLLoader();
     	loader.setLocation(MainMapView.class.getResource("view/MainView.fxml"));
     	BorderPane mainView = loader.load();
-    	//MapViewerController controller = loader.getController();
-    	//controller.TileMapIndexes();
     	mainLayout.setTop(mainView);
     }
     
