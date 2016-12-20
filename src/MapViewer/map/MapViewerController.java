@@ -163,11 +163,8 @@ public class MapViewerController {
     public void SaveButtonAction(){
         SaveCoordinates();
 
-
-
-
-
     }
+    //Add default positions
     @FXML
     public void defaultMap(){
         g.clearRect(0, 0, 640, 640);
