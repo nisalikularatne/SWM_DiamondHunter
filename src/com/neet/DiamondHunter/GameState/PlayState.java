@@ -41,7 +41,12 @@ public class PlayState extends GameState {
 	// camera position
 	private int xsector;
 	private int ysector;
-	private int sectorSize; 
+	private int sectorSize;
+	//coordinates
+	private int Xaxe;
+	private int Yaxe;
+	private int Xboat;
+	private int Yboat;
 	
 	// hud
 	private Hud hud;
