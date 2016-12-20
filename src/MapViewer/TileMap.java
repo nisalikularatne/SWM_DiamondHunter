@@ -16,7 +16,7 @@ public class TileMap {
     private int numCols;
     private int numRows;
 
-    //TileMapIndexes constructor
+    
     public TileMap(int tileSize)
 
     {
