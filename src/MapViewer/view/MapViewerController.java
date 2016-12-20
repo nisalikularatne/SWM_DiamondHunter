@@ -57,7 +57,7 @@ public class MapViewerController {
     private int mouseYcoordinate;
     private GraphicsContext g ;
     private Diamond diamond = new Diamond();
-    private PlayState playstate;
+
 
     //function to update the Axe position
     public void updateAxeCoordinate(int newAxeX, int newAxeY) {
