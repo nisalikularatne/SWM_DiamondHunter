@@ -397,7 +397,7 @@ public class PlayState extends GameState {
 	public void readValueFromPositionFile(){
 		try{
 
-			BufferedReader br = new BufferedReader(new FileReader(new File("SavePositions.txt")));
+			BufferedReader br = new BufferedReader(new FileReader(new File("Resources/Maps/SavePositions.txt")));
 			int row=0;
 			int size=0;
 			String line;
