@@ -33,7 +33,6 @@ public class MainMapView extends Application{
     	mainLayout = (BorderPane) loader.load();
     	Scene scene = new Scene(mainLayout);
     	scene.getStylesheets().add(getClass().getResource("view/MainView.css").toExternalForm());
-    	Font.loadFont(getClass().getResource("/Font/Kemco Pixel Bold.ttf").toExternalForm(), 14);
     	primaryStage.setScene(scene);
     	primaryStage.show();
     }
