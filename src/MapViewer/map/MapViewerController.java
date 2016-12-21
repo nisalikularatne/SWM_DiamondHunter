@@ -139,7 +139,6 @@ public class MapViewerController {
                 bw.newLine();
             }
             bw.flush();
-            System.out.println("Save Coordinate File value="+index[0][1]);
 
 
         }
@@ -156,7 +155,6 @@ public class MapViewerController {
         YaxeCoordinate = index[0][0];
         XboatCoordinate = index[1][1];
         YboatCoordinate = index[1][0];
-        System.out.println("X coordinate from TileMapIndex="+XaxeCoordinate) ;
         drawMap();
     }
     @FXML
