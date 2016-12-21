@@ -8,7 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4ec55ab6-05e2-4d0b-8c2c-79b940ff50aa" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MapViewer/map/MapViewerController.java" afterPath="$PROJECT_DIR$/src/MapViewer/map/MapViewerController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MapViewer/Diamond.java" afterPath="$PROJECT_DIR$/src/MapViewer/Diamond.java" />
     </list>
     <ignored path="Diamond Hunter.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,26 +45,26 @@
         <entry file="file://$PROJECT_DIR$/src/MapViewer/Items.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Diamond.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Diamond.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MapViewer/Diamond.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+            <state vertical-scroll-proportion="0.4090909">
+              <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MapViewerController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MapViewerController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MapViewer/map/MapViewerController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.04927536">
+            <state vertical-scroll-proportion="-0.5862069">
               <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding />
             </state>
@@ -139,8 +139,8 @@
         <option value="$PROJECT_DIR$/src/MapViewer/MainMapView.java" />
         <option value="$PROJECT_DIR$/src/com/neet/DiamondHunter/GameState/PlayState.java" />
         <option value="$PROJECT_DIR$/src/MapViewer/view/MainView.css" />
-        <option value="$PROJECT_DIR$/src/MapViewer/Diamond.java" />
         <option value="$PROJECT_DIR$/src/MapViewer/map/MapViewerController.java" />
+        <option value="$PROJECT_DIR$/src/MapViewer/Diamond.java" />
       </list>
     </option>
   </component>
@@ -929,11 +929,17 @@
       <option name="project" value="LOCAL" />
       <updated>1482337944129</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Lines used to debug code removed">
+      <created>1482338158745</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1482338158745</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12472000" />
+    <option name="totallyTimeSpent" value="12666000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1378" height="735" extended-state="0" />
@@ -990,7 +996,8 @@
     <MESSAGE value="Path to SacePositions.txt file updated so that every use can use" />
     <MESSAGE value="Errors in MainView.css rectified" />
     <MESSAGE value="Unwanted variables in Diamond class removed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Unwanted variables in Diamond class removed" />
+    <MESSAGE value="Lines used to debug code removed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lines used to debug code removed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1049,10 +1056,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MapViewer/Diamond.java">
+    <entry file="file://$PROJECT_DIR$/src/MapViewer/map/MapViewerController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+        <state vertical-scroll-proportion="-0.5862069">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1060,15 +1067,15 @@
     <entry file="file://$PROJECT_DIR$/src/MapViewer/Items.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MapViewer/map/MapViewerController.java">
+    <entry file="file://$PROJECT_DIR$/src/MapViewer/Diamond.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.04927536">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.4090909">
+          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
           <folding />
         </state>
       </provider>

@@ -1,8 +1,6 @@
 package MapViewer;
 import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.image.Image;
-import javafx.scene.canvas.GraphicsContext;
-import javafx.scene.image.Image;
 
 /**
  * Created by Nisali Kularatne on 17/12/2016.
@@ -10,7 +8,7 @@ import javafx.scene.image.Image;
 
 
 public class Diamond {
-    public static Image dia;
+    public static Image diamond_Image;
     public int size = 16;
 
     //get the image from resource file
@@ -20,7 +18,7 @@ public class Diamond {
 
     public void populateDiamond(GraphicsContext g){
         Diamond diamond = new Diamond();
-        dia=loadDiamond("/Sprites/diamond.gif");
+        diamond_Image =loadDiamond("/Sprites/diamond.gif");
         diamond.drawDiamond(g, 20, 20);
         diamond.drawDiamond(g, 4, 28 );
         diamond.drawDiamond(g, 36, 12 );
@@ -41,7 +39,7 @@ public class Diamond {
     //draws the diamonds on the map
     public void drawDiamond(GraphicsContext g, int xIndex, int yIndex){
 
-        g.drawImage(dia, 0, 0, size,size, xIndex*size, yIndex*size, size, size);
+        g.drawImage(diamond_Image, 0, 0, size,size, xIndex*size, yIndex*size, size, size);
 
     }
 }
