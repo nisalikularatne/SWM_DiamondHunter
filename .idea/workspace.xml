@@ -6,32 +6,8 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ec55ab6-05e2-4d0b-8c2c-79b940ff50aa" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Diamond Hunter Map Viewer.jar" afterPath="" />
+    <list default="true" id="4ec55ab6-05e2-4d0b-8c2c-79b940ff50aa" name="Default" comment="SavePositions.txt readded due to technical error previously">
       <change type="DELETED" beforePath="$PROJECT_DIR$/bin/SavePositions.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/neet/DiamondHunter/Entity/Animation.class" afterPath="$PROJECT_DIR$/bin/com/neet/DiamondHunter/Entity/Animation.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/neet/DiamondHunter/Entity/Diamond.class" afterPath="$PROJECT_DIR$/bin/com/neet/DiamondHunter/Entity/Diamond.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/neet/DiamondHunter/Entity/Entity.class" afterPath="$PROJECT_DIR$/bin/com/neet/DiamondHunter/Entity/Entity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/neet/DiamondHunter/Entity/Item.class" afterPath="$PROJECT_DIR$/bin/com/neet/DiamondHunter/Entity/Item.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/neet/DiamondHunter/Entity/Player.class" afterPath="$PROJECT_DIR$/bin/com/neet/DiamondHunter/Entity/Player.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/neet/DiamondHunter/Entity/Sparkle.class" afterPath="$PROJECT_DIR$/bin/com/neet/DiamondHunter/Entity/Sparkle.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/neet/DiamondHunter/GameState/GameOverState.class" afterPath="$PROJECT_DIR$/bin/com/neet/DiamondHunter/GameState/GameOverState.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/neet/DiamondHunter/GameState/GameState.class" afterPath="$PROJECT_DIR$/bin/com/neet/DiamondHunter/GameState/GameState.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/neet/DiamondHunter/GameState/IntroState.class" afterPath="$PROJECT_DIR$/bin/com/neet/DiamondHunter/GameState/IntroState.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/neet/DiamondHunter/GameState/MenuState.class" afterPath="$PROJECT_DIR$/bin/com/neet/DiamondHunter/GameState/MenuState.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/neet/DiamondHunter/GameState/PauseState.class" afterPath="$PROJECT_DIR$/bin/com/neet/DiamondHunter/GameState/PauseState.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/neet/DiamondHunter/GameState/PlayState.class" afterPath="$PROJECT_DIR$/bin/com/neet/DiamondHunter/GameState/PlayState.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/neet/DiamondHunter/HUD/Hud.class" afterPath="$PROJECT_DIR$/bin/com/neet/DiamondHunter/HUD/Hud.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/neet/DiamondHunter/Main/Game.class" afterPath="$PROJECT_DIR$/bin/com/neet/DiamondHunter/Main/Game.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/neet/DiamondHunter/Main/GamePanel.class" afterPath="$PROJECT_DIR$/bin/com/neet/DiamondHunter/Main/GamePanel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/neet/DiamondHunter/Manager/Content.class" afterPath="$PROJECT_DIR$/bin/com/neet/DiamondHunter/Manager/Content.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/neet/DiamondHunter/Manager/Data.class" afterPath="$PROJECT_DIR$/bin/com/neet/DiamondHunter/Manager/Data.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/neet/DiamondHunter/Manager/GameStateManager.class" afterPath="$PROJECT_DIR$/bin/com/neet/DiamondHunter/Manager/GameStateManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/neet/DiamondHunter/Manager/JukeBox.class" afterPath="$PROJECT_DIR$/bin/com/neet/DiamondHunter/Manager/JukeBox.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/neet/DiamondHunter/Manager/Keys.class" afterPath="$PROJECT_DIR$/bin/com/neet/DiamondHunter/Manager/Keys.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/neet/DiamondHunter/TileMap/Tile.class" afterPath="$PROJECT_DIR$/bin/com/neet/DiamondHunter/TileMap/Tile.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/neet/DiamondHunter/TileMap/TileMap.class" afterPath="$PROJECT_DIR$/bin/com/neet/DiamondHunter/TileMap/TileMap.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Diamond Hunter.iws" />
@@ -942,11 +918,17 @@
       <option name="project" value="LOCAL" />
       <updated>1482338835709</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="SavePositions.txt readded due to technical error previously">
+      <created>1482340368186</created>
+      <option name="number" value="00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1482340368186</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14696000" />
+    <option name="totallyTimeSpent" value="15043000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1378" height="735" extended-state="0" />
@@ -1007,7 +989,8 @@
     <MESSAGE value="Diamond Class modified" />
     <MESSAGE value="Comments added for enhancing readability" />
     <MESSAGE value="Old jar file deleted" />
-    <option name="LAST_COMMIT_MESSAGE" value="Old jar file deleted" />
+    <MESSAGE value="SavePositions.txt readded due to technical error previously" />
+    <option name="LAST_COMMIT_MESSAGE" value="SavePositions.txt readded due to technical error previously" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
