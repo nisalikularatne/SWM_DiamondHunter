@@ -7,11 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ec55ab6-05e2-4d0b-8c2c-79b940ff50aa" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Resources/Maps/SavePositions.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/neet/DiamondHunter/GameState/PlayState.class" afterPath="$PROJECT_DIR$/bin/com/neet/DiamondHunter/GameState/PlayState.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MapViewer/map/MapViewerController.java" afterPath="$PROJECT_DIR$/src/MapViewer/map/MapViewerController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/neet/DiamondHunter/GameState/PlayState.java" afterPath="$PROJECT_DIR$/src/com/neet/DiamondHunter/GameState/PlayState.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Maps/SavePositions.txt" afterPath="$PROJECT_DIR$/Resources/Maps/SavePositions.txt" />
     </list>
     <ignored path="Diamond Hunter.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -999,11 +997,17 @@
       <option name="project" value="LOCAL" />
       <updated>1482343133287</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="SavePosition.txt moved into Maps in Resources">
+      <created>1482344384167</created>
+      <option name="number" value="00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1482344384167</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17703000" />
+    <option name="totallyTimeSpent" value="18114000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1378" height="735" extended-state="0" />
@@ -1067,7 +1071,9 @@
     <MESSAGE value="SavePositions.txt readded due to technical error previously" />
     <MESSAGE value="SavePosition.txt moved into TextFile directory in bin&#10;" />
     <MESSAGE value="SavePosition.txt moved outside src" />
-    <option name="LAST_COMMIT_MESSAGE" value="SavePosition.txt moved outside src" />
+    <MESSAGE value="SavePosition.txt moved into Maps in Resources" />
+    <MESSAGE value="Executable jar file readded" />
+    <option name="LAST_COMMIT_MESSAGE" value="Executable jar file readded" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
