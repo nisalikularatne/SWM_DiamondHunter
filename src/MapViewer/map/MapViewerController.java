@@ -129,7 +129,7 @@ public class MapViewerController {
             index[0][1]=XaxeCoordinate;
             index[1][0]=YboatCoordinate;
             index[1][1]=XboatCoordinate;
-            BufferedWriter bw = new BufferedWriter(new FileWriter("bin/TextFile/SavePositions.txt"));
+            BufferedWriter bw = new BufferedWriter(new FileWriter("SavePositions.txt"));
             for (int i = 0; i < 2; i++) {
                 for (int j = 0; j < 2; j++) {
 
@@ -174,7 +174,7 @@ public class MapViewerController {
     public void readValueFromPositionFile(){
         try{
 
-            BufferedReader br = new BufferedReader(new FileReader(new File("bin/TextFile/SavePositions.txt")));
+            BufferedReader br = new BufferedReader(new FileReader(new File("SavePositions.txt")));
             int row=0;
             int size=0;
             String line;
