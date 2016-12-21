@@ -37,14 +37,14 @@
                   <Font name="Berlin Sans FB" size="20.0" />
                </font>
             </Button>
-            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="65.0" layoutY="73.0" prefHeight="70.0" prefWidth="154.0" text="Map ">
+            <Label fx:id="mapLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="65.0" layoutY="73.0" prefHeight="70.0" prefWidth="154.0" text="Map ">
                <font>
-                  <Font name="Kemco Pixel Bold" size="48.0" />
+                  <Font name="Batang" size="48.0" />
                </font>
             </Label>
-            <Label layoutX="11.0" layoutY="143.0" text="Viewer">
+            <Label fx:id="viewerLabel" layoutX="11.0" layoutY="143.0" text="Viewer">
                <font>
-                  <Font name="Kemco Pixel Bold" size="48.0" />
+                  <Font name="Batang" size="48.0" />
                </font>
             </Label>
             <Separator layoutX="-3.0" layoutY="265.0" prefHeight="3.0" prefWidth="257.0" />
@@ -64,5 +64,3 @@
       <Separator fx:id="seperator" orientation="VERTICAL" prefHeight="660.0" prefWidth="35.0" BorderPane.alignment="CENTER" />
    </center>
 </BorderPane>
-
-

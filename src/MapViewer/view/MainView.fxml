@@ -29,9 +29,9 @@
    <top>
       <AnchorPane fx:id="titleHeader" prefHeight="254.0" prefWidth="940.0" BorderPane.alignment="CENTER">
          <children>
-            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="7.0" layoutY="186.0" prefHeight="68.0" prefWidth="940.0" text="Diamond Hunter">
+            <Label fx:id="gameTitle" alignment="CENTER" contentDisplay="CENTER" layoutX="7.0" layoutY="186.0" prefHeight="68.0" prefWidth="940.0" text="Diamond Hunter">
                <font>
-                  <Font name="Kemco Pixel Bold" size="75.0" />
+                  <Font name="Batang" size="75.0" />
                </font>
             </Label>
          </children>
