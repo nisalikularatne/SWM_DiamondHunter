@@ -397,7 +397,7 @@ public class PlayState extends GameState {
 	public void readValueFromPositionFile(){
 		try{
 
-			BufferedReader br = new BufferedReader(new FileReader(new File("C:/Users/WanNing/git/SWM_DiamondHunter/bin/SavePositions.txt")));
+			BufferedReader br = new BufferedReader(new FileReader(new File("bin/SavePositions.txt")));
 			int row=0;
 			int size=0;
 			String line;
