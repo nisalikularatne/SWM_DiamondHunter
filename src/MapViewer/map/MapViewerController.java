@@ -165,7 +165,7 @@ public class MapViewerController {
     //Add default positions
     @FXML
     public void defaultMap(){
-        g.clearRect(0, 0, 640, 640);
+        g.clearRect(0, 0, 640, 640);//clear the canvas
         updateAxeCoordinate(37,26);
         updateBoatCoordinate(4, 12);
         drawMap();
