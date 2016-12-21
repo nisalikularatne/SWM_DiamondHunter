@@ -113,14 +113,4 @@
         linear-gradient(to bottom, #F99D9A, #B0FAC6);
 }
 
-#gameTitle {
-	-fx-font-family: 'Kemco Pixel';
-}
 
-#mapLabel {
-	-fx-font-family: 'Kemco Pixel';
-}
-
-#viewerLabel {
-	-fx-font-family: 'Kemco Pixel';
-}
