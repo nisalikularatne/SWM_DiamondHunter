@@ -11,7 +11,6 @@ import javafx.scene.image.Image;
 
 public class Diamond {
     public static Image dia;
-    public int xIndex, yIndex;
     public int size = 16;
 
     //get the image from resource file
