@@ -6,14 +6,10 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ec55ab6-05e2-4d0b-8c2c-79b940ff50aa" name="Default" comment="TileMapIndexes function added and used to PlayState">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/Diamond_Hunter_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/neet/DiamondHunter/GameState/PlayState.class" afterPath="$PROJECT_DIR$/bin/com/neet/DiamondHunter/GameState/PlayState.class" />
+    <list default="true" id="4ec55ab6-05e2-4d0b-8c2c-79b940ff50aa" name="Default" comment="Path to SacePositions.txt file updated so that every use can use">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MapViewer/map/MapViewerController.java" afterPath="$PROJECT_DIR$/src/MapViewer/map/MapViewerController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MapViewer/view/MainViewController.java" afterPath="$PROJECT_DIR$/src/MapViewer/view/MainViewController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/neet/DiamondHunter/GameState/PlayState.java" afterPath="$PROJECT_DIR$/src/com/neet/DiamondHunter/GameState/PlayState.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/SavePositions.txt" afterPath="$PROJECT_DIR$/bin/SavePositions.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MapViewer/view/MainView.css" afterPath="$PROJECT_DIR$/src/MapViewer/view/MainView.css" />
     </list>
     <ignored path="Diamond Hunter.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -91,8 +87,8 @@
       <file leaf-file-name="MainView.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MapViewer/view/MainView.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.41379312">
-              <caret line="38" column="4" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.90229887">
+              <caret line="116" column="0" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -144,10 +140,10 @@
         <option value="$PROJECT_DIR$/src/MapViewer/view/MapViewerController.java" />
         <option value="$PROJECT_DIR$/src/MapViewer/map/MainViewController.java" />
         <option value="$PROJECT_DIR$/src/MapViewer/view/MainViewController.java" />
-        <option value="$PROJECT_DIR$/src/MapViewer/view/MainView.css" />
         <option value="$PROJECT_DIR$/src/MapViewer/MainMapView.java" />
         <option value="$PROJECT_DIR$/src/com/neet/DiamondHunter/GameState/PlayState.java" />
         <option value="$PROJECT_DIR$/src/MapViewer/map/MapViewerController.java" />
+        <option value="$PROJECT_DIR$/src/MapViewer/view/MainView.css" />
       </list>
     </option>
   </component>
@@ -918,11 +914,17 @@
       <option name="project" value="LOCAL" />
       <updated>1482252679063</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Path to SacePositions.txt file updated so that every use can use">
+      <created>1482335113997</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1482335113997</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10627000" />
+    <option name="totallyTimeSpent" value="12158000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1378" height="735" extended-state="0" />
@@ -976,7 +978,8 @@
     <MESSAGE value="PlayState modified to get new Axe and Boat positions(Add Private Variables for position)" />
     <MESSAGE value="ReadFromFile function added in playstate" />
     <MESSAGE value="TileMapIndexes function added and used to PlayState" />
-    <option name="LAST_COMMIT_MESSAGE" value="TileMapIndexes function added and used to PlayState" />
+    <MESSAGE value="Path to SacePositions.txt file updated so that every use can use" />
+    <option name="LAST_COMMIT_MESSAGE" value="Path to SacePositions.txt file updated so that every use can use" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1055,8 +1058,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MapViewer/view/MainView.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41379312">
-          <caret line="38" column="4" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.90229887">
+          <caret line="116" column="0" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
           <folding />
         </state>
       </provider>

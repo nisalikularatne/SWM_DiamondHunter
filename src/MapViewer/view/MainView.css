@@ -92,21 +92,21 @@
 	-fx-background-color: #87CB9C;
 }
 
-#AXEbtn: selected {
+#AXEbtn:selected {
 	-fx-background-color: 
 	-fx-shadow-highlight-color,
         linear-gradient(to bottom, #F99D9A, #B0FAC6),
         linear-gradient(to bottom, #5BE3CC, #B0FAC6);
 }
 
-#BOATbtn: selected {
+#BOATbtn:selected {
 	-fx-background-color: 
 	-fx-shadow-highlight-color,
         linear-gradient(to bottom, #F99D9A, #B0FAC6),
         linear-gradient(to bottom, #5BE3CC, #B0FAC6);
 }
 
-#defaultButton: selected {
+#defaultButton:selected {
 	-fx-background-color: 
 	-fx-shadow-highlight-color,
         linear-gradient(to bottom, #F99D9A, #B0FAC6),
