@@ -6,8 +6,13 @@ import com.neet.DiamondHunter.Main.Game;
 import com.neet.DiamondHunter.Main.GamePanel;
 import com.neet.DiamondHunter.Manager.GameStateManager;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.canvas.Canvas;
 import javafx.scene.canvas.GraphicsContext;
+import javafx.scene.control.Alert;
+import javafx.scene.control.Alert.AlertType;
 import javafx.scene.control.Button;
 import javafx.scene.control.ToggleButton;
 import javafx.scene.layout.AnchorPane;
@@ -17,6 +22,8 @@ import java.io.*;
 import MapViewer.Items;
 import MapViewer.MainMapView;
 import MapViewer.TileMap;
+import MapViewer.save.SaveDialogController;
+import javafx.stage.Modality;
 import javafx.stage.Stage;
 
 import javax.swing.*;
@@ -27,6 +34,7 @@ import javax.swing.*;
 public class MapViewerController {
 
     private MainMapView main;
+    private SaveDialogController saveDialog;
 
     @FXML AnchorPane anchorPane;
     @FXML Button defaultButton;
@@ -158,10 +166,21 @@ public class MapViewerController {
         drawMap();
     }
     @FXML
-    public void SaveButtonAction(){
+    public void SaveButtonAction() throws IOException{
         SaveCoordinates();
+        
+        FXMLLoader loader = new FXMLLoader();
+    	loader.setLocation(MainMapView.class.getResource("save/SaveDialog.fxml"));
+    	Parent root  = (Parent) loader.load();
+    	Stage dialog = new Stage();
+    	dialog.initModality(Modality.APPLICATION_MODAL);
+    	dialog.setTitle("Message");
+    	//scene.getStylesheets().add(getClass().getResource("view/MainView.css").toExternalForm());
+    	dialog.setScene(new Scene(root));
+    	dialog.showAndWait();
 
     }
+    
     //Add default positions
     @FXML
     public void defaultMap(){
