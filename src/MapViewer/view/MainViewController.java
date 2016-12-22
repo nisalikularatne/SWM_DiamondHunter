@@ -26,6 +26,7 @@ public class MainViewController {
 	@FXML
 	private void goPlayGame() {
 		game.main(null);
+
 	}
 	
 	@FXML
