@@ -1,0 +1,14 @@
+#okButton {
+	-fx-background-radius: 30px;
+	-fx-background-color: #CFC8F1;
+}
+
+#okButton:hover {
+	-fx-background-color: #67EF9D;
+}
+
+#dialogPane {
+	-fx-background-color: 
+	-fx-shadow-highlight-color,
+        linear-gradient(to bottom, #79E3D5, #ADFBCC);
+}
