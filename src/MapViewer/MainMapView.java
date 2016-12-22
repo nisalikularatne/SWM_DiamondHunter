@@ -5,10 +5,15 @@ import java.io.IOException;
 import MapViewer.map.MapViewerController;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.control.Alert;
+import javafx.scene.control.Alert.AlertType;
+import javafx.scene.control.DialogPane;
 import javafx.scene.image.Image;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.text.*;
+import javafx.stage.Modality;
 import javafx.stage.Stage;
 
 public class MainMapView extends Application{
@@ -53,8 +58,18 @@ public class MainMapView extends Application{
     	mainLayout.setTop(mapView);
     }
     
+    public static void showSaveMessage() throws IOException {
+    	FXMLLoader loader = new FXMLLoader();
+    	loader.setLocation(MainMapView.class.getResource("save/SaveDialog.fxml"));
+    	Parent root  = (Parent) loader.load();
+    	root.getStylesheets().add(MainMapView.class.getResource("save/SaveDialog.css").toExternalForm());
+    	Stage dialog = new Stage();
+    	dialog.initModality(Modality.APPLICATION_MODAL);
+    	dialog.setTitle("Message");
+    	dialog.setScene(new Scene(root));
+    	dialog.showAndWait();
+    }
     
-
     public static void main(String[] args) {
         launch(args);
     }
