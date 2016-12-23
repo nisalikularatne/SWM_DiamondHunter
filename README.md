@@ -21,3 +21,6 @@ Diamond Hunter Map Viewer Application
     The whole standelone map is in a different package in the source code.
     The Tilemap,Items and Diamond.java Classes have been coded completely in 
     JavaFX and not in swing. 
+    
+    DONE BY- NISALI SANARA KULARATNE
+             GAN WAN NING
