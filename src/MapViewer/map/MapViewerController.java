@@ -168,17 +168,7 @@ public class MapViewerController {
     @FXML
     public void SaveButtonAction() throws IOException{
         SaveCoordinates();
-        
-        FXMLLoader loader = new FXMLLoader();
-    	loader.setLocation(MainMapView.class.getResource("save/SaveDialog.fxml"));
-    	Parent root  = (Parent) loader.load();
-    	Stage dialog = new Stage();
-    	dialog.initModality(Modality.APPLICATION_MODAL);
-    	dialog.setTitle("Message");
-    	//scene.getStylesheets().add(getClass().getResource("view/MainView.css").toExternalForm());
-    	dialog.setScene(new Scene(root));
-    	dialog.showAndWait();
-
+        main.showSaveMessage();
     }
     
     //Add default positions
@@ -189,7 +179,8 @@ public class MapViewerController {
         updateBoatCoordinate(4, 12);
         drawMap();
     }
-    //reaing the original Axe and Boat Positions from a File in Resources
+    
+    //reading the original Axe and Boat Positions from a File in Resources
     public void readValueFromPositionFile(){
         try{
 
