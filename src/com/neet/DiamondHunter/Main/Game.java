@@ -4,23 +4,31 @@
 
 package com.neet.DiamondHunter.Main;
 
-import javax.swing.JFrame;
+import javax.swing.*;
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
 
 public class Game {
 	
 	public static void main(String[] args) {
+        GamePanel gamepanel=new GamePanel();
 		
 		JFrame window = new JFrame("Diamond Hunter");
 		
-		window.add(new GamePanel());
+		window.add(gamepanel);
 		
 		window.setResizable(false);
 		window.pack();
 		
 		window.setLocationRelativeTo(null);
 		window.setVisible(true);
-		
-		
+		window.addWindowListener(new WindowAdapter() {
+			public void windowClosing(WindowEvent windowEvent){
+				window.setVisible(false);
+
+			}
+		});
+
 	}
 	
 }
